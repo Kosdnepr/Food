@@ -1,5 +1,5 @@
 class MenuController {
-  items(req, res) {
+  orders(req, res) {
     console.log('got request for menu-items');
 
     res.json([]);
